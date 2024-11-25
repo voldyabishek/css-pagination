@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .pagination {
+  display:inline-block;
+} 
+
+ .pagination a {
+  color: black;
+  float: left; 
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #ddd; 
+  margin: 0 3px;
+  font-size: 22px;
+
+}
+.pagination a.green {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.pagination a:hover:not(.green)
+     {
+      background-color: #1f1515;
+    }
+
+    .center,h2{
+        text-align: center;
+    }
+    section{
+        height: 80vh;
+    }
+  footer{
+    text-align: center;
+  }
+ 
+  
+</style>
+</head>
+<body>  
+  <section>
+<h2>Simple Pagination</h2>
+
+<div class="center">
+<div class="pagination">
+  <a href="second.html">&laquo;</a>
+  <a href="second.html" >1</a>
+  <a href="" class="green">2</a>
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_transition" >3</a>
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_border">4</a>
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_border_round">5</a>
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_pagination_margin">6</a>
+  <a href="">&raquo;</a>
+</div>
+</div>
+<p>Next/Previous buttons:</p>
+<div class="pagination">
+  <a href="#">❮</a>
+  <a href="#">❯</a>
+</div>
+
+</section>
+
+</body>
+<footer>
+    <div>Navigation pagination:</div>
+    <div class="pagination">
+      <a href="#" class="green">Home</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    </footer>
+</html>
